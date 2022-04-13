@@ -1,0 +1,17 @@
+{
+  "name": "learning-rx",
+  "version": "1.0.0",
+  "description": "rxjs examples",
+  "main": "http-server.js",
+  "dependencies": {
+    "rxjs": "^5.4.3",
+    "wreck": "^12.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscar Funes <me@oscarfunes.com>",
+  "license": "ISC",
+  "keywords": []
+}
