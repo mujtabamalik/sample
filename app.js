@@ -28,16 +28,6 @@ const server = http.createServer((req, res) => {
 
   
 
-
-
-const requests = fromEvent(server, 'request', Array.of);
-
-requests.subscribe(([request, response]) => {
-    
-    console.log('new request', request.url);
-
-});
-
 server.listen(port, (err) => {
     if (err) return console.log('Error:', err);
 
